@@ -7,6 +7,6 @@ tasks:
       build-essential \
       libssl-dev \
       libgtk-3-dev \
-      libappindicator3-dev\
+      libappindicator3-dev \
       librsvg2-dev
       
