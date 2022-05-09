@@ -1,12 +1,10 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: "installing rust"
-    init: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
   - name: "installing dependencies necessary for tauri"
     init: |
       sudo apt update
-      sudo apt install libwebkit2gtk-4.0-dev 
-      build-essential
+      sudo apt -y install libwebkit2gtk-4.0-dev \
+      build-essential\
       curl \
       wget \
       libssl-dev \
