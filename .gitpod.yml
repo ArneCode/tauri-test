@@ -4,9 +4,7 @@ tasks:
     init: |
       sudo apt update
       sudo apt -y install libwebkit2gtk-4.0-dev \
-      build-essential\
-      curl \
-      wget \
+      build-essential \
       libssl-dev \
       libgtk-3-dev \
       libappindicator3-dev \
