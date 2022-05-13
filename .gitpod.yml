@@ -1,1 +1,2 @@
-image: epsilon02/tauri-ci
+image:
+  file: .gitpod.Dockerfile
